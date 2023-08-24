@@ -12,6 +12,7 @@ export default defineConfig({
       entry: resolve(__dirname, "lib/main.js"),
       name: "Vue3JsonDiff",
       fileName: "vue3-json-diff",
+      formats: ["umd", "es", "cjs"],
     },
   },
   rollupOptions: {
