@@ -1,7 +1,7 @@
 {
   "name": "vue3-json-diff",
   "private": false,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "files": [
     "dist"
@@ -31,5 +31,6 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vue-tsc": "^1.8.5"
-  }
+  },
+  "license": "MIT"
 }
