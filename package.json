@@ -1,9 +1,11 @@
 {
   "name": "vue3-json-diff",
   "private": false,
-  "version": "0.0.10",
+  "version": "0.0.12",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/vue3-json-diff.umd.cjs",
   "module": "./dist/vue3-json-diff.js",
   "exports": {
@@ -15,10 +17,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
+    "build:watch": "vue-tsc && vite build --watch",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.3.4"
+    "diff-match-patch": "^1.0.5",
+    "less": "^4.2.0",
+    "vue": "^3.3.4",
+    "vue3-json-viewer": "^2.2.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
