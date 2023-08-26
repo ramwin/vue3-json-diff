@@ -1,7 +1,7 @@
 {
   "name": "vue3-json-diff",
   "private": false,
-  "version": "0.1.2",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
@@ -12,6 +12,10 @@
     ".": {
       "require": "./dist/vue3-json-diff.umd.cjs",
       "import": "./dist/vue3-json-diff.js"
+    },
+    "./dist/style.css": {
+      "require": "./dist/style.css",
+      "import": "./dist/style.css"
     }
   },
   "scripts": {
