@@ -1,11 +1,14 @@
-# Vue 3 + TypeScript + Vite
+# vue3-json-diff
 
-# Install
+# example effect/效果
+![](./doc/demo.png)
+
+# Install/安装
 ```
 npm install --save vue3-json-diff
 ```
 
-# Usage
+# Usage/用法
 ```html
 <script setup lang="ts">
   import {ref} from "vue"
@@ -23,10 +26,12 @@ npm install --save vue3-json-diff
 
 <template>
   <main>
-    <Vue3JsonDiff
-        :left-value="left_data"
-        :right-value="right_data"
-    />
+    <div style="width: 900px">
+      <Vue3JsonDiff
+          :left-value="left_data"
+          :right-value="right_data"
+      />
+    </div>
   </main>
 </template>
 ```
