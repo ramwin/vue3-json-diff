@@ -32,11 +32,9 @@ const diffHtml = computed(()=>{
   const obj = new diff_match_patch()
   const left_string = JSON.stringify(props.leftValue, null, 4)
   const right_string = JSON.stringify(props.rightValue, null, 4)
-  console.log("计算区别", left_string, right_string)
   const diff = obj.diff_main(
     left_string, right_string
   )
-  console.log("区别: ", diff)
   const html = obj.diff_prettyHtml(
     diff
   )
